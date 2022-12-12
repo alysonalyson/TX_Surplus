@@ -1,0 +1,123 @@
+/* Universal Styles */
+html {
+  font-family: Lato, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 72px;
+  font-weight: 900;
+}
+
+h2{
+  font-size: 44px;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+ul li {
+  text-decoration: none;
+}
+
+button {
+  padding: 15px 100px;
+  border-radius: 10px;
+  border: none;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  box-shadow: 2px 4px #666666;
+}
+
+.red {
+  background-color: #911c1b;
+  color: #fdf8df;
+}
+
+.navy {
+  background-color: #204082;
+  color: #fdf8df;
+}
+
+.light-blue {
+  background-color: #b0cffa;
+  color: #204082;
+  padding: 15px;
+  margin-left: 20px;
+}
+
+
+/* Header Styles */
+header {
+  background-color: #b0cffa;
+  width: 100%;
+  max-height: 140px;
+  padding: 20px 100px;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+}
+
+header img {
+  margin: auto;
+  display: inline-block;
+}
+
+header span {
+  color: #204082;
+  margin-top: 10px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 600,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+header nav {
+  display: inline-block;
+  margin-left: 250px;
+}
+
+header li {
+  display: inline;
+  margin-left: 80px;
+  font-size: 18px;
+  color: #204082;
+}
+
+
+/* Main Section */
+main {
+  margin-top: 140px;
+}
+
+#hero {
+  /*color: white; */
+} 
+
+#hero h2 {
+ 
+}
+
+/*Newsletter Form */
+.button {
+  padding: 15px 100px;
+  border-radius: 10px;
+  border: none;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  box-shadow: 2px 4px #666666;
+  margin-left: 20px;
+}
+
+.field {
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  padding: 15px 100px 15px 25px;
+  border-radius: 10px;
+}
